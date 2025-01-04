@@ -14,6 +14,7 @@
 		F805255A2D29578D0010C603 /* SampleCombineCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80525592D29578D0010C603 /* SampleCombineCounterTests.swift */; };
 		F80525642D29578D0010C603 /* SampleCombineCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80525632D29578D0010C603 /* SampleCombineCounterUITests.swift */; };
 		F80525662D29578D0010C603 /* SampleCombineCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80525652D29578D0010C603 /* SampleCombineCounterUITestsLaunchTests.swift */; };
+		F80525732D2958510010C603 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80525722D2958510010C603 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F805255F2D29578D0010C603 /* SampleCombineCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCombineCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80525632D29578D0010C603 /* SampleCombineCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCombineCounterUITests.swift; sourceTree = "<group>"; };
 		F80525652D29578D0010C603 /* SampleCombineCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCombineCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F80525722D2958510010C603 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				F805254A2D29578B0010C603 /* ContentView.swift */,
 				F805254C2D29578D0010C603 /* Assets.xcassets */,
 				F805254E2D29578D0010C603 /* Preview Content */,
+				F80525722D2958510010C603 /* ViewModel.swift */,
 			);
 			path = SampleCombineCounter;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F805254B2D29578B0010C603 /* ContentView.swift in Sources */,
+				F80525732D2958510010C603 /* ViewModel.swift in Sources */,
 				F80525492D29578B0010C603 /* SampleCombineCounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
